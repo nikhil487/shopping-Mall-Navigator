@@ -1,0 +1,329 @@
+.grid-container {
+   
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: #ffccff;
+    border: 2px solid blue;
+    margin-top: 140px;
+}
+
+.grid-container > div {
+    text-align: center;
+    width: 37.67px;
+    height: 24px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+#man{
+    
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+.instr{
+    
+    position: absolute;
+    right: 100px;
+    top: 96px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 5px solid red;
+}
+
+.instr:hover{
+    
+    background-color: palevioletred;
+    color: white;
+    
+}
+
+
+.onHover{
+    background-color: #ffb3ff;
+}
+
+
+.lindt{
+    width: 452.56px;
+    height: 100.8px;
+    position: absolute;
+    top: 193px;
+    left: 457.56px;
+    border: 2px solid yellow;
+}
+
+
+.item177{
+    border-left: 2px solid yellow;
+    background-color: brown;
+    color: brown;
+}
+.item178{
+    background-color: brown;
+    color: brown;
+
+}
+.item179{
+    border-right: 2px solid yellow;
+    background-color: brown;
+    color: brown;
+}
+
+.hm{
+    
+    height: 150px;
+    width: 308.4px;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 377px;
+    right: 1288px;
+    border: 2px solid red;
+}
+.item325{
+    
+    border-top: 2px solid red;
+    background-color: white;
+    color: white;
+}
+.item365{
+    background-color: white;
+    color: white;
+}
+.item405{
+    border-bottom: 2px solid red;
+    background-color: white;
+    color: white;
+}
+
+.adidas{
+    position: absolute;
+    right: 761px;
+    top: 385px;
+    height: 194px;
+    width: 300px;
+    border: 2px solid white;
+}
+.item421{
+    border-top: 2px solid white;
+    background-color: black;
+    color: black;
+}
+.item461{
+    background-color: black;
+    color: black;
+}
+.item501{
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: black;
+}
+
+.bb{
+    
+    transform: rotate(90deg);
+    width: 300px;
+    height: 266px;
+    position: absolute;
+    top: 314px;
+    right: -16px;
+    border: 2px solid orange;
+}
+.item353{
+    border-top: 2px solid orange;
+    background-color: white;
+    color: white;
+}
+.item393{
+    background-color: white;
+    color: white;
+}
+.item433{
+    border-bottom: 2px solid orange;
+    background-color: white;
+    color: white;
+}
+
+
+.nike{
+    
+    height: 203px;
+    width: 300px;
+    position: absolute;
+    top: 667px;
+    right: 3px;
+    border: 4px solid black;
+}
+.item1155{
+    background-color: #00dcff;
+    border-left: 2px solid black;
+    color: #00dcff;
+}
+.item1156{
+    background-color: #00dcff;
+    color: #00dcff;
+}
+.item1157{
+    background-color: #00dcff;
+    border-right: 2px solid black;
+    color: #00dcff;
+}
+.kfc{
+    
+    height: 205px;
+    width: 299px;
+    position: absolute;
+    left: 4px;
+    border: 4px solid white;
+    top: 844px;
+}
+.item1129{
+    border-top: 2px solid white;
+    background-color: red;
+    color: red;
+}
+.item1169{
+    background-color: red;
+    color: red;
+}
+.item1209{
+    border-bottom: 2px solid white;
+    background-color: red;
+    color: red;
+}
+.dominos{
+    
+    height: 169px;
+    width: 300px;
+    position: absolute;
+    left: 610px;
+    top: 983px;
+    border: 2px solid white;    
+}
+.item1299{
+    background-color: #006591;
+    border-left: 2px solid white;
+    color: #006591
+}
+.item1300{
+    background-color: #006591;
+    color: #006591
+}
+.item1301{
+    background-color: #006591;
+    border-right: 2px solid white;
+    color: #006591
+}
+
+.button {
+    background-color : black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   }
+
+
+.directory{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 150px;
+}
+
+.ins{
+    
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    
+}
+
+.ins-table{
+    
+    text-align: center;
+    width: 500px;
+    background-color: white;
+}
+
+.ins-table tr, td{
+    
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+
+.tr-img{
+    
+    height: 80px;
+    width: 80px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(151,148,142,0.9); 
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#in{
+    
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.list-group-item {
+    
+    position: relative;
+    display: block;
+    padding: 5px 20px;
+    background-color: #fff;
+    width: 60%;
+    margin-left: 282px;
+}
+
+.list-group-item:hover{
+    
+    background-color: #33B5FF;
+}
+
+.colourPath{
+    
+    background-color: rgb(121, 255, 77);
+}
